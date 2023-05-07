@@ -18,6 +18,13 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "warp/deploy.js",
+    "warp/contract.js",
+    "warp/configureWarpServer.js"
+  ],
   "exclude": ["node_modules"]
 }
